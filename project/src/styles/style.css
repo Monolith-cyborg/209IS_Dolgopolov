@@ -1,0 +1,83 @@
+* {
+   margin: 0;
+}
+
+.header {
+   padding: 8px 16px;
+   background-color: #b3b0ae83;
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+}
+
+.main {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100vh;
+
+   background-image: url(/project/assets/images/fonkarelia.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: max-content;
+   border-radius: 10px;
+
+   img {
+      width: 50px;
+      height: 50px;
+   }
+}
+
+.links {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   list-style: none;
+   li {
+      padding: 4px 12px;
+      border-radius: 20px;
+      a {
+         color: #000000;
+         text-decoration: none;
+      }
+   }
+}
+
+.main-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+
+   h1 {
+      font-size: 68px;
+      color: #FFFFFF;
+      text-align: center;
+   }
+
+   p {
+      font-size: 18px;
+      color: #FFFFFF;
+      text-align: center;
+   }
+}
+
+.social-links {
+   display: flex;
+   justify-content: end;
+   gap: 10px;
+   padding: 20px;
+
+   img {
+      width: 60px;
+      height: 60px;
+   }
+}
+
