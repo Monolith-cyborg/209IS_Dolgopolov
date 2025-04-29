@@ -4,6 +4,14 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="./styles/style.css" />
+
+      <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+      <link
+         rel="stylesheet"
+         type="text/css"
+         href="../slick/slick-theme.css"
+      />
+
       <title>Document</title>
    </head>
    <body>
@@ -50,5 +58,53 @@
             </div>
          </div>
       </section>
+
+      <section class="catalog">
+         <div class="catalog-text">
+            <h1>КАТАЛОГ</h1>
+            <p>Задача организации, в особенности же сложившаяся структура организации позволяет выполнять важные задания по разработке существенных финансовых и административных условий. </p>
+         </div>
+         <div class="your-class">
+            <figure>
+               <img src="../assets/images/gorniyPark.jpg" alt="Парк" />
+               <figcaption>Горный парк “Рускеала”</figcaption>
+            </figure>
+            <figure>
+               <img src="../assets/images/ostrov.jpg" alt="Остров" />
+               <figcaption>Остров “Кижи”</figcaption>
+            </figure>
+            <figure>
+               <img src="../assets/images/vodopad.jpg" alt="Водопад" />
+               <figcaption>Водопад “Кивач”</figcaption>
+            </figure>
+            <figure>
+               <img src="../assets/images/Petrozavodsk.jpg" alt="Петрозаводск" />
+               <figcaption>Столица г.Петрозаводск</figcaption>
+            </figure>
+         </div>
+      </section>
+
+      <script
+         type="text/javascript"
+         src="//code.jquery.com/jquery-1.11.0.min.js"
+      ></script>
+      <script
+         type="text/javascript"
+         src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+      ></script>
+      <script type="text/javascript" src="../slick/slick.min.js"></script>
+
+      <script type="text/javascript">
+         $(document).ready(function () {
+            $(".your-class").slick({
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               dots: true,
+               arrows: true,
+               autoplay: true,
+               autoplaySpeed: 2000,
+            });
+         });
+      </script>
    </body>
 </html>

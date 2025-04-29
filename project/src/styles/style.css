@@ -151,3 +151,38 @@
 .social-icon:hover{
    transform: scale(1.2);
 }
+
+.catalog {
+   padding: 40px 60px;
+}
+
+.catalog-text {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+
+   h1 {
+      font-size: 68px;
+   }
+
+   p{
+      font-size: 18px;
+      width: 400px;
+   }
+}
+
+.your-class {
+
+   figure {
+      margin: 30px 20px;
+      height: 350px;
+   }
+
+   img {
+      width: 260.6px;
+      height: 360.83px;
+      object-fit: cover;
+      border-radius: 20px;
+   }
+
+   }
