@@ -59,18 +59,18 @@
 
    h1 {
       font-size: 68px;
-      color: #FFFFFF;
+      color: #ffffff;
       text-align: center;
    }
 
    p {
       font-size: 18px;
-      color: #FFFFFF;
+      color: #ffffff;
       text-align: center;
    }
 }
 
-.social-container{
+.social-container {
    padding: 20px;
    position: relative;
    display: inline-block;
@@ -95,7 +95,7 @@
    transition: transform 0.3s;
 }
 
-.main-icon:hover{
+.main-icon:hover {
    transform: scale(1.1);
 }
 
@@ -105,7 +105,7 @@
    color: white;
    font-size: 24px;
    font-weight: bold;
-   transition: all 0.3s; 
+   transition: all 0.3s;
 }
 
 /* меняем на крестик когда чекбокс отменен*/
@@ -114,8 +114,8 @@
    font-size: 24px;
 }
 
-.social-icons{
-   position:absolute;
+.social-icons {
+   position: absolute;
    bottom: 60px;
    left: 40px;
    transform: translateX(-50%);
@@ -138,22 +138,29 @@
 .social-toggle:checked ~ .social-icons {
    opacity: 1;
    visibility: visible;
-   transform: translateX(-50%) translateY(0) ;
+   transform: translateX(-50%) translateY(0);
 }
 
-.social-icon{
+.social-icon {
    width: 30px;
    height: 30px;
    cursor: pointer;
    transition: transform 0.2s;
 }
 
-.social-icon:hover{
+.social-icon:hover {
    transform: scale(1.2);
 }
 
 .catalog {
    padding: 40px 60px;
+   background-image: url(/project/assets/images/fonkarelia2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   color: #ffffff;
+
+   
 }
 
 .catalog-text {
@@ -163,28 +170,29 @@
 
    h1 {
       font-size: 68px;
+      color: #31d18399;
+      
    }
 
-   p{
+   p {
       font-size: 18px;
       width: 400px;
+      color: #31d18399;
    }
+
 }
 
 .your-class {
-
    figure {
       margin: 30px 20px;
-      height: 350px;
+      height: 450px;
    }
 
    img {
-      width: 260.6px;
+      width: 290.6px;
       height: 360.83px;
       object-fit: cover;
       border-top: 938.85px;
-      border-left: 90.21px;
       border-radius: 20px;
    }
-
-   }
+}
