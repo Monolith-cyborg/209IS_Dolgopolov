@@ -196,31 +196,36 @@
       border-radius: 20px;
    }
 }
-.o_nas{
-   
-}
-
-.o_nas-text{
-   display: flex;
-   align-items: center;
-   gap: 16px;
+.about {
+   padding: 40px;
 
    h1 {
       font-size: 68px;
-      width: 170px;
-      height: 200px;
-      top: 1485px;
-      left: 89px;
       color: #31d18399;
       
    }
+}
+
+.about-text {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   background-color: #555;
 
    p1 {
       font-size: 18px;
-      width: 354px;
-      height: 120px;
-      top: 1677px;
-      left: 117px;
       color: #31d18399;
+   }
+}
+
+.end-line {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   img {
+      height: 71px;
+      width: 125px;
+
    }
 }
