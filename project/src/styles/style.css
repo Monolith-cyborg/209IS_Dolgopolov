@@ -196,3 +196,31 @@
       border-radius: 20px;
    }
 }
+.o_nas{
+   
+}
+
+.o_nas-text{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+
+   h1 {
+      font-size: 68px;
+      width: 170px;
+      height: 200px;
+      top: 1485px;
+      left: 89px;
+      color: #31d18399;
+      
+   }
+
+   p1 {
+      font-size: 18px;
+      width: 354px;
+      height: 120px;
+      top: 1677px;
+      left: 117px;
+      color: #31d18399;
+   }
+}
