@@ -210,7 +210,9 @@
    display: flex;
    flex-direction: column;
    gap: 10px;
-   background-color: #555;
+   background-color: #8b8383;
+   height: 450px;
+   width: 447px;
 
    p1 {
       font-size: 18px;
@@ -229,3 +231,39 @@
 
    }
 }
+.about-zone {
+   width: 541px;
+   height: 510px;
+   display: flex;
+   align-items: flex-end;
+   align-content: center;
+   
+
+   .about-class {
+   
+   img {
+      width: 260px;
+      height: 240px;
+      top: 1840px;
+      left: 650px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 130px;
+      border-bottom-right-radius: 20px;
+   }
+
+   
+}
+img {
+   width: 260px;
+   height: 510px;
+   top: 1570px;
+   left: 930px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 130px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   
+}
+}
+
