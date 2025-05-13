@@ -308,29 +308,34 @@
 }
 
 .gallery-box {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
 
-   images{
-      
-      box1{
-        
-      }
+.box1 {
+   width: 540px;
+   height: 260px;
+}
 
-      box2{
-         
-      }
+.box2 {
+   width: 260px;
+   height: 260px;
+}
 
-      box3{
-         
-      }
+.box3 {
+   width: 260px;
+   height: 540px;
+}
 
-      box4{
-         
-      }
+.box4 {
+   width: 540px;
+   height: 260px;
+}
 
-      box5{
-         
-      }
-   }
+.box5 {
+   width: 260px;
+   height: 260px;
 }
 
 .contacts {
