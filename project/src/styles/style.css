@@ -308,34 +308,63 @@
 }
 
 .gallery-box {
-   display: flex;
-   align-items: center;
-   gap: 20px;
+    max-width: 1100px; /* Общая ширина всех колонок */
+    margin: 0 auto;
+}
+
+.imagess {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+    grid-gap: 15px;
+    grid-template-areas: 
+        "box1 box1 box2 box3"
+        "box5 box4 box4 box3";
 }
 
 .box1 {
-   width: 540px;
-   height: 260px;
+    grid-area: box1;
+    width: 100%;
+    height: 260px;
+    border-radius: 20px; /* Закругление углов */
+    overflow: hidden; /* Обрезаем содержимое по закругленным краям */
 }
 
 .box2 {
-   width: 260px;
-   height: 260px;
+    grid-area: box2;
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .box3 {
-   width: 260px;
-   height: 540px;
+    grid-area: box3;
+    width: 100%;
+    height: 540px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .box4 {
-   width: 540px;
-   height: 260px;
+    grid-area: box4;
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .box5 {
-   width: 260px;
-   height: 260px;
+    grid-area: box5;
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Чтобы изображения заполняли контейнеры */
 }
 
 .contacts {
